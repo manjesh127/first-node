@@ -79,27 +79,19 @@ module.exports = {
                     errorMessage: 'gasPrice to Send Missing'
                 }
             });
+            // console.log('validation check',req)                  //check request 
             var errors = req.validationErrors();
-            console.log(errors)
+            // console.log(errors)
             if (errors) {
                 var errorsMessage = [];
                 errors.forEach(function (err) {
+                    // console.log('errpr come from errors',err)
                     errorsMessage.push(err.msg);
                 });
                 return res.status(403).send({ success: false, message: errorsMessage[0] });
             } else {
                 next()
-
             }
-
-
-
-            // var findAddress = await address.findOne({ ethAddress: req.body.from, index: req.body.index });
-            // if (findAddress == null) {
-            //     return res.send({ success: false, message: "Address not found" });
-            // } else {
-            //     next();
-            // }
         } catch (error) {
             console.log('exception ', error)
             res.status(500).send({ success: false, message: 'Unable to authenticate request' });
