@@ -56,7 +56,6 @@ module.exports = {
     //=========================================<middleware for ether>=================================================
     checkAddress: function (req, res, next) {
         try {
-            // req.body.check('from','invalid address').web3.utils.isAddress(from)
             req.checkBody({
                 'from': {
                     notEmpty: true,
@@ -64,7 +63,8 @@ module.exports = {
                 },
                 'index': {
                     notEmpty: true,
-                    errorMessage: 'Index Parameter Missing'
+                    isInt: true,
+                    errorMessage: 'Index Parameter Missing or value is in integer only'
                 },
                 'to': {
                     notEmpty: true,
@@ -72,20 +72,20 @@ module.exports = {
                 },
                 'amount': {
                     notEmpty: true,
-                    errorMessage: 'Amount To Send Missing'
+                    isFloat: true,
+                    errorMessage: 'Amount To Send Missing or amount is in float value'
                 },
                 'gasPrice': {
                     notEmpty: true,
-                    errorMessage: 'gasPrice to Send Missing'
+                    isFloat: true,
+                    errorMessage: 'gasPrice to Send Missing or gasprice is in float value '
                 }
             });
             // console.log('validation check',req)                  //check request 
             var errors = req.validationErrors();
-            // console.log(errors)
             if (errors) {
                 var errorsMessage = [];
                 errors.forEach(function (err) {
-                    // console.log('errpr come from errors',err)
                     errorsMessage.push(err.msg);
                 });
                 return res.status(403).send({ success: false, message: errorsMessage[0] });
