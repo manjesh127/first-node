@@ -1,0 +1,116 @@
+body{
+  background: url("https://effiasoft.com/wp-content/uploads/blockchain-background.jpg")
+}
+
+.signup{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 450px;
+  margin-right: 400px;
+  border-radius: 20px;
+  background-color:  #ccccff;
+}
+.form{
+padding: 1px 78px;
+background-color: #a49ada;
+border-radius: 20px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #00004d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 4px 20px  #0f1827;
+}
+
+.signin {
+  width: 100%;
+  padding: 0px 40px;
+  /* margin: 8px 0;
+  display: inline-block; */
+}
+
+input[type=button]:hover {
+  background-color: #000066;
+  color: white;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+.login{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 20px;
+  background-color:  #ccccff;
+}
+
+.password{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 450px;
+  margin-right: 400px;
+  border-radius: 20px;
+  background-color:  #ccccff;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+.hii {
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+}
+

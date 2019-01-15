@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%= title %>
+  </title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' href='css/style.css' />
+</head>
+
+<body>
+  <!--============>loginform<==============================-->
+  <div class="signup">
+    <form name="SignupForm" class="form" id="up">
+      <h3 style="text-align: center;">Sign up</h3>
+      <label for="name">Enter Your full Name</label>
+      <input type="text" id="fname" name="name" placeholder="Your full name.." required>
+
+
+      <label for="email">Enter Your Valid email</label>
+      <input type="email" id="email" name="email" placeholder="Your valid email.." required>
+
+      <label for="lname">Password</label>
+      <input type="password" id="paswd" name="pswd" placeholder="enter your password..">
+      <!-- <span style="color:red" id='message'></span></br> -->
+      <label for="lname">Conform your password</label>
+      <input type="password" id="confpass" name="cnfrm-pswd" placeholder="Conform your password..">
+
+      <input type="submit" value="Submit" onclick="submitform()">
+
+      <div class=" signin">
+        <p>Already have an account? <a href="/home">Sign in</a>.</p>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/lib/js/bootstrap.min.js"></script>
+<script src="/lib/js/axios.min.js"></script>
+<script src="/js/news.js"></script>
+
+</html>
