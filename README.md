@@ -3,12 +3,11 @@
 ##  Basic Instruction
 * Before you get started learning about Node.js, first Node install in your machine.
  Go [NodeJs.Org](https://nodejs.org)
-* You should have Knowledge about the express framework.
- Go [Express.Js](https://expressjs.com/)
- 
+
 * You have to mongodb installed in your machine.
 
 * You have to knowledge the basic query of mongodb.(update,delete,find..etc).
 
-
+* You should have Knowledge about the express framework.
+ Go [Express.Js](https://expressjs.com/)
 
