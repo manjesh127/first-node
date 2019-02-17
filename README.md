@@ -3,5 +3,5 @@
 ##  Basic Instruction
 1. Before you get started learning about Node.js, first Node install in your machine.
 
-...Go [NodeJs.Org](https://nodejs.org)
+ ...Go [NodeJs.Org](https://nodejs.org)
 
