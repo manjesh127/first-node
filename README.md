@@ -1,5 +1,6 @@
-#  First node project
+#  Welcome to nodeJs
  _NOTE:_ This is the basic starting node project to start and learn how  nodeJs work on the server.
+##### Node.js is an open source server environment,uses JavaScript on the server.
 ##  Basic Instruction
 * Before you get started learning about Node.js, first Node install in your machine.
  Go [NodeJs.Org](https://nodejs.org)
