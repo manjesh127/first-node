@@ -1,9 +1,9 @@
 #  Welcome to nodeJs
  _NOTE:_ This is the basic starting node project to start and learn how  nodeJs work on the server.
+ * Before you get started learning about Node.js, first Node install in your machine.For more information on using Node.js,
+ Go [NodeJs.Org](https://nodejs.org)
  
 ##  Basic Instruction
-* Before you get started learning about Node.js, first Node install in your machine.For more information on using Node.js,
- Go [NodeJs.Org](https://nodejs.org)
 
 * You have to mongodb installed in your machine.
 
